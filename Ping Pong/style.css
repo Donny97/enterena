@@ -1,0 +1,173 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #C52222;
+}
+
+#container {
+    position: absolute;
+    height: 495px;
+    width: 60%;
+/*    top: 20px;*/
+    /*border: 2px solid #FFFFFF;*/
+    background-color: #171717;
+    margin-left: 35%;
+    overflow: hidden;
+}
+
+#player1 {
+    font-family: Big John;
+    color: white;
+    margin-top: 5%;
+    margin-left: 60%;
+}
+
+#player2 {
+    font-family: Big John;
+    color: white;
+    margin-left: 60%;
+}
+
+#score_head_1 {
+/*    margin-top: 15%;*/
+    font-family: Big John;
+    color: khaki;
+/*    color: white;*/
+    margin-left: 115px;
+}
+
+#score_head_2 {
+    margin-top: 10%;
+    font-family: Big John;
+    color: khaki;
+/*    color: white;*/
+    margin-left: 115px;
+    
+}
+
+#pause_btn {
+    background-color: rgb(30,20,30);
+/*    background-color: rgb(100,80,60);*/
+    color: whitesmoke;
+    padding: 10px 30px 10px 30px;
+    font-family: Big John;
+    font-size: 30px;
+    margin-left: 153px;
+    border: 1px solid  rgb(30,20,30);
+}
+
+#name {
+    margin-top: 16%;
+    font-family: Big John;
+    font-size: 55px;
+    margin-left: 45px;
+    color: darkblue;
+    background-color: white;
+    padding: 4px 12px 10px 12px;
+}
+
+#title {
+    font-family: Slim Joe;
+/*    font-family: Big John;*/
+    font-size: 20px;
+    margin-left: 144px;
+    color: white;
+/*    color: rgb(30,20,30);*/
+}
+
+#info_div {
+    display: inline-flex;
+}
+
+#bird {
+    position: absolute;
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 50%;
+}
+
+.pole {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    left: 50%;
+}
+
+#pole_1 {
+    top: 0;
+}
+
+#pole_2 {
+    bottom: 0;
+}
+
+#score_div {
+	 margin-top: 50px;	
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+/*
+#restart_btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);   
+    color: white;
+    font-size: 70px;
+    border: none;
+    display: none;
+}
+
+#winner{
+	background-color: #C52222;
+	padding: 15px;
+	cursor: pointer;
+}
+*/
+
+#restart_btn {
+    background-color: #C52222;
+	padding: 20px 56px 20px 56px;
+    font-size: 40px;
+	cursor: pointer;
+    margin-left: 40%;
+    color: white;
+    border: 1px solid #C52222;
+}
+
+#continue_btn {
+    margin-left: 40%;
+    background-color: #C52222;
+	padding: 20px 40px 20px 40px;
+    font-size: 40px;
+    color: white;
+	cursor: pointer;
+    border: 1px solid #C52222;
+}
+
+#won {
+    margin-left: 34%;
+}
+
+#winner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);   
+    color: white;
+    font-size: 70px;
+    border: none;
+    display: none;
+}

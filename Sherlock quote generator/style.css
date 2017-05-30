@@ -1,0 +1,51 @@
+body{
+    margin-top: 4.5%;
+    background: url(bg/1.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(Raleway-Regular.ttf);
+}
+
+h1{
+    font-size: 10rem;
+    font-family: Raleway-Regular;
+    color: white;
+}
+
+#share, #sharebtnfb{
+    background-color: #3b5998;
+    color: white;
+    font-family: sans-serif;
+}
+
+#sharebtntw{
+    background-color:  #0084b4;
+    color: white;
+}
+
+#next, #nextbtn{
+    font-family: sans-serif;
+    color: black;
+}
+
+#quote{
+    margin-top:  20%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 30px;
+    max-height:  50px;
+    min-height: 50px;
+    height: 50px;
+    position: relative;
+/*    border: 2px solid white;*/
+        
+}
+
+#buttons{
+    margin-left: -1em;;
+    margin-top: 10em;
+    position: relative;
+}

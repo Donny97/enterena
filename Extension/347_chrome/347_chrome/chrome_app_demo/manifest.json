@@ -1,0 +1,15 @@
+{
+	"name": "CHANNEL NAME",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "CHANNEL DESCRIPTION",
+	"app": {
+        	"urls": ["MAIN WEBSITE URL"],
+        	"launch": {
+            		"web_url": "WEBSITE URL TO LINK TO"
+        	}
+    	},
+	"icons": {
+		"128": "icon.png"
+	}
+}

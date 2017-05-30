@@ -1,0 +1,10 @@
+#scrollerBox {
+    position: relative;
+    height: 350px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 8px; 
+    border-top-left-radius: 8px; 
+    padding: 10px 50px 20px 50px;
+}
+

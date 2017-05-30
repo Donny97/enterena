@@ -1,0 +1,134 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    border: 2px solid brown;
+    background-color: lightyellow;
+    margin: 0% 10% 0% 10%;
+    overflow: hidden;
+}
+
+#bird {
+    position: absolute;
+    background: url('bird.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole {
+    position: absolute;
+    height: 130px;
+    width: 75px;
+    background-color: brown;
+    right: -50px;
+}
+
+.pillar {
+    position: absolute;
+    height: 130px;
+    width: 75px;
+    background-color: brown;
+    right: 500px;
+}
+
+#pole_1 {
+    top: 0;
+}
+
+#pole_2 {
+    bottom: 0;
+}
+
+#pole_3 {
+    top: 0;
+}
+
+#pole_4 {
+    bottom: 0;
+}
+
+#score_div {
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 14%;    
+/*    margin-top: 1%;*/
+    font-family: Tahoma;
+    color: rgb(30,20,30);
+}
+
+#bbtn {
+    position: relative;
+    height: 60px;
+    width: 250px;
+/*    padding: 20px;*/
+    background-color: crimson;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+/*    letter-spacing: 10px;*/
+  /*  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;*/
+    text-align: center;
+    transition: background-color 1s , color 1s , letter-spacing 1s;
+}
+
+#bbtn:hover {
+    background-color: white;
+    color: crimson;
+    border: 2px solid crimson;
+    transition: background-color 1s , color 1s , letter-spacing 1s;
+    letter-spacing: 5px;
+}
+
+
+#restart_btn {
+    position: absolute;
+    top: 0;
+    height: 17%;
+    width: 100%;
+    padding: 20px;
+    background-color: crimson;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+    letter-spacing: 10px;
+  /*  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;*/
+    text-align: center;
+    transition: background-color 1s , color 1s , letter-spacing 1s;
+}
+
+#enter {
+    font-size: 10px;
+}
+
+#restart_btn:hover {
+    background-color: white;
+    color: crimson;
+    border: 2px solid crimson;
+/*    letter-spacing: 20px;*/
+    transition: background-color 1s , color 1s , letter-spacing 1s;
+}
+
+h1 {
+    margin-left: 37%;
+    font-size: 50px;
+    font-family: Slim Joe;
+}
+
